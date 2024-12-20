@@ -57,7 +57,7 @@ export default {
 						});
 					}
 					default:
-						url.hostname = 'invidious.jing.rocks';
+						url.hostname = 'piped.kavin.rocks';
 						url.protocol = 'https:';
 						request = new Request(url, request);
 						return await fetch(request);
